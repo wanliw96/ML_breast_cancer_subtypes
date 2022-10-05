@@ -31,7 +31,7 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - The classifier with the highest accuracy is SVM with radial kernel and trained on the PAM50 genes. 
 - The final classifier achieved an average accuracy of 0.9 during the ten-fold training and test.
 - Applied the final classifier to the 582 samples with unknown labels to estimate their breast cancer/normal subtypes.
-#### 6. Survival analysis
+#### 6. Survival analysis:
 - Exclude control samples within the TCGA dataset.
 - Applied survival analysis on the samples with survival records.
 - The conclusion is that basal-like and Luminal A have better prognoses compared with other subtypes.
