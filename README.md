@@ -12,4 +12,7 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - PAM50.genes.txt: <br /> Set of genes included in the PAM50 classifier. This set of 50 genes has previously been selected based on their ability to discriminate the five breast cancer intrinsic subtypes using microarray data.
 
 ## Analysis steps
-#### 1. Data normalization
+#### 1. Data normalization: 
+- Removed the no-expression genes.
+- Gene expression normalization and log-transformation.
+
