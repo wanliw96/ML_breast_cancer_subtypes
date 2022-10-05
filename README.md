@@ -37,4 +37,4 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - The conclusion is that basal-like and Luminal A have better prognoses compared with other subtypes.
 
 ## Coding pipelines:
-The whole analysis pipeline can be found in this report: [Click here]
+The whole analysis pipeline can be found in this report: [Click here](https://wanliw96.github.io/ML_breast_cancer_subtypes/classifier_project.html)
