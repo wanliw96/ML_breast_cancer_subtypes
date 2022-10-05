@@ -10,3 +10,6 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - PAM50.class.microarray.txt: <br /> PAM50 classification for part of the samples in the RNA-seq dataset that also have microarray data for the same samples. This can be used as the ground truth for this set of samples.
 - SurvivalData.txt: <br /> This matrix contains information about the time until each patient either died or the time until the last follow-up (last known alive). It also contains information about whether the patient still had a tumor at the time of death or the last follow-up.
 - PAM50.genes.txt: <br /> Set of genes included in the PAM50 classifier. This set of 50 genes has previously been selected based on their ability to discriminate the five breast cancer intrinsic subtypes using microarray data.
+
+## Analysis steps
+### Data normalization
