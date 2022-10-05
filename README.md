@@ -27,4 +27,6 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - Support Vector Machine (SVM) with different kernels (linear, polynomial and radial).
 - Random forest (RF).
 - K nearest neighbors (KNN) with different neighbor numbers (K = 3,5,7).
+#### 5. Prediction and model selection:
+The classifier with the highest accuracy is SVM with radial kernel and trained on the PAM50 genes.
 
