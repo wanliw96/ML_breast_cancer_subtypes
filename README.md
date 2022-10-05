@@ -19,3 +19,12 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - Applied one-vs-rest t-test for each subtype and picked 69 significant genes.
 - Applied pari-wise t-test between selected subtype pairs.
 - Finally extracted 87 genes as features for next-step classification.
+#### 3. K-fold cross validation:
+- Split the 626 training samples into ten folds. 
+- Trained with nine folds and tested with one fold.
+- Average the predictions from ten-fold training as the evaluation for the classifier.
+#### 4. Machine leanring classifiers:
+- Support Vector Machine (SVM) with different kernels (linear, polynomial and radial).
+- Random forest (RF).
+- K nearest neighbors (KNN) with different neighbor numbers (K = 3,5,7).
+
