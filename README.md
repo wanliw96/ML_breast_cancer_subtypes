@@ -36,3 +36,5 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 - Applied survival analysis on the samples with survival records.
 - The conclusion is that basal-like and Luminal A have better prognoses compared with other subtypes.
 
+## Coding pipelines:
+The whole pineline can be found in this report: 
