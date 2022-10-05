@@ -18,7 +18,7 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 #### 2. Feature selection:
 - Applied one-vs-rest t-test for each subtype and picked 69 significant genes.
 - Applied pair-wise t-tests between selected subtype pairs.
-- Finally extracted 87 genes as features for next-step classification.
+- Finally extracted 87 genes as features for later classification.
 #### 3. K-fold cross-validation:
 - Split the 626 training samples into ten folds. 
 - Trained with nine folds and tested with one fold.
