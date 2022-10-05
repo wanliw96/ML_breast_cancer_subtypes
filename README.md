@@ -14,25 +14,25 @@ The Cancer Genome Atlas (TCGA) project has profiled many molecular characteristi
 ## Analysis steps
 #### 1. Data normalization: 
 - Removed the no-expression genes.
-- Gene expression normalization and log-transformation.
+- Gene expression normalization and log transformation.
 #### 2. Feature selection:
 - Applied one-vs-rest t-test for each subtype and picked 69 significant genes.
-- Applied pari-wise t-test between selected subtype pairs.
+- Applied pair-wise t-tests between selected subtype pairs.
 - Finally extracted 87 genes as features for next-step classification.
-#### 3. K-fold cross validation:
+#### 3. K-fold cross-validation:
 - Split the 626 training samples into ten folds. 
 - Trained with nine folds and tested with one fold.
 - Average the predictions from ten-fold training as the evaluation for the classifier.
-#### 4. Machine leanring classifiers:
-- Support Vector Machine (SVM) with different kernels (linear, polynomial and radial).
+#### 4. Machine learning classifiers:
+- Support Vector Machine (SVM) with different kernels (linear, polynomial, and radial).
 - Random forest (RF).
 - K nearest neighbors (KNN) with different neighbor numbers (K = 3,5,7).
 #### 5. Prediction and model selection:
 - The classifier with the highest accuracy is SVM with radial kernel and trained on the PAM50 genes. 
-- The final classifier achieved an average accuracy of 0.9 during ten-fold training and test.
-- Applied the final classifier to the 582 samples with unknown label to estimate their breast cancer/normal subtypes.
+- The final classifier achieved an average accuracy of 0.9 during the ten-fold training and test.
+- Applied the final classifier to the 582 samples with unknown labels to estimate their breast cancer/normal subtypes.
 #### 6. Survival analysis
 - Exclude control samples within the TCGA dataset.
 - Applied survival analysis on the samples with survival records.
-- The conclusion is that basal-like and Luminal A have better prognosis compared with other subtypes.
+- The conclusion is that basal-like and Luminal A have better prognoses compared with other subtypes.
 
